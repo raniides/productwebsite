@@ -10,7 +10,7 @@ const Product = () => {
           <h1>Building Materials & Hardware</h1>
           <nav>
             <ul>
-              <li><Link to="/">Home</Link></li>
+              <li><Link to="/productwebsite">Home</Link></li>
               <li><Link to="/products">Products</Link></li>
               <li><Link to="/contact">Contact</Link></li>
             </ul>
