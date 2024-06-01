@@ -28,12 +28,6 @@ const Product = () => {
               <p>Price: $0.50 each</p>
             </div>
             <div className="product-card">
-              <img src="images/cement.jpg" alt="Cement" />
-              <h3>Cement</h3>
-              <p>Top-grade cement for durability.</p>
-              <p>Price: $7.00 per bag</p>
-            </div>
-            <div className="product-card">
               <img src="images/steel_rods.jpg" alt="Steel Rods" />
               <h3>Steel Rods</h3>
               <p>Strong steel rods for building.</p>
