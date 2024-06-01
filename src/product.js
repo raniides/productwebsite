@@ -22,12 +22,6 @@ const Product = () => {
           <h2>Our Products</h2>
           <div className="product-grid">
             <div className="product-card">
-              <img src="images/bricks.jpg" alt="Bricks" />
-              <h3>Bricks</h3>
-              <p>High-quality bricks for construction.</p>
-              <p>Price: $0.50 each</p>
-            </div>
-            <div className="product-card">
               <img src="images/steel_rods.jpg" alt="Steel Rods" />
               <h3>Steel Rods</h3>
               <p>Strong steel rods for building.</p>
