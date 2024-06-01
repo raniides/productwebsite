@@ -1,5 +1,6 @@
 import React from 'react';
-import './styles.css'; 
+import { Link } from 'react-router-dom';
+import './styles.css';
 
 const Home = () => {
   return (
@@ -9,9 +10,9 @@ const Home = () => {
           <h1>Building Materials & Hardware</h1>
           <nav>
             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="products.html">Products</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><Link to="/">Home</Link></li>
+              <li><Link to="/products">Products</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
             </ul>
           </nav>
         </div>
@@ -21,7 +22,7 @@ const Home = () => {
           <div className="container">
             <h2>Welcome to Our Store</h2>
             <p>Your one-stop shop for all building materials and hardware.</p>
-            <a href="products.html" className="btn">Shop Now</a>
+            <Link to="/products" className="btn">Shop Now</Link>
           </div>
         </section>
         <section id="features" className="container">
@@ -52,4 +53,3 @@ const Home = () => {
 };
 
 export default Home;
-
