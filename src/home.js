@@ -4,7 +4,7 @@ import './styles.css';
 
 const Home = () => {
   return (
-    <div >
+    <div id='main'>
       <header>
         <div className="container">
           <h1>Building Materials & Hardware</h1>
@@ -17,7 +17,7 @@ const Home = () => {
           </nav>
         </div>
       </header>
-      <main id='main'>
+      <main >
         <section id="hero" style={{marginTop:'30px'}} >
           <div className="container">
             <h2 style={{fontSize:'50px'}}>Welcome to Our Store</h2>
