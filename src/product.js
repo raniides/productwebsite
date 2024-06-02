@@ -1,10 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './styles.css';
+import steelrods from './images/i1.jpeg';
+import electricalwire from './images/i2.jpeg';
+import plumbing from './images/i3.jpeg';
 
 const Product = () => {
   return (
-    <div>
+    <div >
       <header>
         <div className="container">
           <h1>Building Materials & Hardware</h1>
@@ -17,25 +20,25 @@ const Product = () => {
           </nav>
         </div>
       </header>
-      <main>
+      <main id='main2'>
         <section id="products" className="container">
-          <h2>Our Products</h2>
+          <h1 className='Name'>Our Products</h1>
           <div className="product-grid">
             <div className="product-card">
-              <img src="images/steel_rods.jpg" alt="Steel Rods" />
-              <h3>Steel Rods</h3>
+              <img src={ steelrods } alt="Steel Rods" style={{ width:'360px',height: '350px' }}/>
+              <h2>Steel Rods</h2>
               <p>Strong steel rods for building.</p>
-              <p>Price: $5.00 per unit</p>
+              <p>Price: 5.00 <b>AED</b> per unit</p>
             </div>
             <div className="product-card">
-              <img src="images/wiring.jpg" alt="Electrical Wiring" />
-              <h3>Electrical Wiring</h3>
+              <img src={ electricalwire } alt="Electrical Wiring" style={{ width:'360px',height: '350px' }}/>
+              <h2>Electrical Wiring</h2>
               <p>Safe and reliable wiring solutions.</p>
-              <p>Price: $0.10 per meter</p>
+              <p>Price: 0.10 <b>AED</b> per meter</p>
             </div>
             <div className="product-card">
-              <img src="images/plumbing.jpg" alt="Plumbing Supplies" />
-              <h3>Plumbing Supplies</h3>
+              <img src={ plumbing }  alt="Plumbing Supplies" style={{ height: '350px' }}/>
+              <h2>Plumbing Supplies</h2>
               <p>All essential plumbing materials.</p>
               <p>Price: Varies</p>
             </div>

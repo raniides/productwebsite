@@ -4,7 +4,7 @@ import './styles.css';
 
 const Home = () => {
   return (
-    <div>
+    <div >
       <header>
         <div className="container">
           <h1>Building Materials & Hardware</h1>
@@ -17,8 +17,8 @@ const Home = () => {
           </nav>
         </div>
       </header>
-      <main>
-        <section id="hero">
+      <main id='main'>
+        <section id="hero" >
           <div className="container">
             <h2>Welcome to Our Store</h2>
             <p>Your one-stop shop for all building materials and hardware.</p>
@@ -26,7 +26,7 @@ const Home = () => {
           </div>
         </section>
         <section id="features" className="container">
-          <h3>Why Choose Us?</h3>
+          <h1 style={{color:'Magenta',fontSize:'30px'}}>Why Choose Us?</h1>
           <div className="feature-list">
             <div className="feature">
               <h4>High-Quality Products</h4>

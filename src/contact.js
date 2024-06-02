@@ -17,7 +17,7 @@ const Contact = () => {
                     </nav>
                 </div>
             </header>
-            <main>
+            <main id='main3'>
                 <section id="contact" className="container">
                     <h2>Contact Us</h2>
                     <form action="submit_contact_form" method="post">
