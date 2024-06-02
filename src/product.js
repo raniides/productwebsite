@@ -25,19 +25,19 @@ const Product = () => {
           <h1 className='Name'>Our Products</h1>
           <div className="product-grid">
             <div className="product-card">
-              <img src={ steelrods } alt="Steel Rods" style={{ width:'360px',height: '350px' }}/>
+              <img src={ steelrods } alt="Steel Rods" style={{width: '100%',height: '350px' , display: 'block',objectFit:'cover' }}/>
               <h2>Steel Rods</h2>
               <p>Strong steel rods for building.</p>
               <p>Price: 5.00 <b>AED</b> per unit</p>
             </div>
             <div className="product-card">
-              <img src={ electricalwire } alt="Electrical Wiring" style={{ width:'360px',height: '350px' }}/>
+              <img src={ electricalwire } alt="Electrical Wiring" style={{width: '100%',height: '350px' , display: 'block',objectFit:'cover' }}/>
               <h2>Electrical Wiring</h2>
               <p>Safe and reliable wiring solutions.</p>
               <p>Price: 0.10 <b>AED</b> per meter</p>
             </div>
             <div className="product-card">
-              <img src={ plumbing }  alt="Plumbing Supplies" style={{ height: '350px' }}/>
+              <img src={ plumbing }  alt="Plumbing Supplies" style={{width: '100%',height: '350px' , display: 'block',objectFit:'cover' }}/>
               <h2>Plumbing Supplies</h2>
               <p>All essential plumbing materials.</p>
               <p>Price: Varies</p>
