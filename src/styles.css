@@ -48,6 +48,7 @@ main {
 
 #main {
     background: url('images/i12.jpeg') no-repeat center center/cover;
+    height: 100%;
 }
 
 #main2 {
