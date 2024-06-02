@@ -47,14 +47,14 @@ main {
 }
 
 #main {
-    background: url('images/i11.webp') no-repeat center center/cover;
+    background: url('images/i12.jpeg') no-repeat center center/cover;
     width: 100%;
      display: block;
      object-fit:cover;
 }
 
 #main2 {
-    background: url('images/i5.jpeg') no-repeat center center/cover;
+    background: url('images/i11.webp') no-repeat center center/cover;
     width: 100%;
      display: block;
      object-fit:cover;
