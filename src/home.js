@@ -18,15 +18,16 @@ const Home = () => {
         </div>
       </header>
       <main id='main'>
-        <section id="hero" >
+        <section id="hero" style={{marginTop:'30px'}} >
           <div className="container">
-            <h2>Welcome to Our Store</h2>
+            <h2 style={{fontSize:'50px'}}>Welcome to Our Store</h2>
             <p>Your one-stop shop for all building materials and hardware.</p>
             <Link to="/products" className="btn">Shop Now</Link>
           </div>
         </section>
-        <section id="features" className="container">
-          <h1 style={{color:'Magenta',fontSize:'30px'}}>Why Choose Us?</h1>
+        <section id="features" className="container"><br></br><br></br>
+          <h1 style={{color:'Magenta',fontSize:'45px'}}>Why Choose Us?</h1><br>
+          </br><br></br>
           <div className="feature-list">
             <div className="feature">
               <h4>High-Quality Products</h4>
