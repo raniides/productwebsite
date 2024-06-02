@@ -10,9 +10,11 @@ const Contact = () => {
         const email = event.target.email.value;
         const message = event.target.message.value;
 
-        const whatsappMessage = `Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+        // Properly encode the message for URL
+        const whatsappMessage = encodeURIComponent(`Name: ${name}\nEmail: ${email}\nMessage: ${message}`);
         const whatsappUrl = `https://wa.me/917083622015?text=${whatsappMessage}`;
 
+        // Redirect to WhatsApp
         window.location.href = whatsappUrl;
     };
 
