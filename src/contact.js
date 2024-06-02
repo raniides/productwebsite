@@ -3,6 +3,19 @@ import { Link } from 'react-router-dom';
 import './styles.css';
 
 const Contact = () => {
+    const handleSubmit = (event) => {
+        event.preventDefault();
+
+        const name = event.target.name.value;
+        const email = event.target.email.value;
+        const message = event.target.message.value;
+
+        const whatsappMessage = `Name: ${name}%0AEmail: ${email}%0AMessage: ${message}`;
+        const whatsappUrl = `https://wa.me/917083622015?text=${whatsappMessage}`;
+
+        window.location.href = whatsappUrl;
+    };
+
     return (
         <div>
             <header>
@@ -20,7 +33,7 @@ const Contact = () => {
             <main id='main3'>
                 <section id="contact" className="container">
                     <h2>Contact Us</h2>
-                    <form action="submit_contact_form" method="post">
+                    <form onSubmit={handleSubmit}>
                         <label htmlFor="name">Name:</label>
                         <input type="text" id="name" name="name" required />
                         <label htmlFor="email">Email:</label>
