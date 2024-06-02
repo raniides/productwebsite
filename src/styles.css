@@ -48,17 +48,14 @@ main {
 
 #main {
     background: url('images/i14.jpeg') no-repeat center center/cover;
-    
 }
 
 #main2 {
-    background: url('images/i17.jpeg') no-repeat center center/cover;
-   
+    background: url('images/i12.jpeg') no-repeat center center/cover;
 }
 
 #main3 {
     background: url('images/i9.jpeg') no-repeat center center/cover;
-    
 }
 
 #hero .container {
